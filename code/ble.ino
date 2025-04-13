@@ -56,7 +56,7 @@ void setup() {
   pinMode(ledPin, OUTPUT);
 
   // Create the BLE Device
-  BLEDevice::init("ESP32");
+  BLEDevice::init("FLIGHT LOGGER");
 
   // Create the BLE Server
   pServer = BLEDevice::createServer();
